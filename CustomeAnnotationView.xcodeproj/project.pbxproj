@@ -16,6 +16,13 @@
 		FE2F15541C9D2BB700D724D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2F15521C9D2BB600D724D3 /* LaunchScreen.storyboard */; };
 		FE2F155F1C9D2BB700D724D3 /* CustomeAnnotationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2F155E1C9D2BB700D724D3 /* CustomeAnnotationViewTests.m */; };
 		FE2F156A1C9D2BB700D724D3 /* CustomeAnnotationViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2F15691C9D2BB700D724D3 /* CustomeAnnotationViewUITests.m */; };
+		FE2F15791C9D2CCB00D724D3 /* CustomPinAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2F15781C9D2CCB00D724D3 /* CustomPinAnnotationView.m */; };
+		FE2F157C1C9D2D1800D724D3 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2F157B1C9D2D1800D724D3 /* MyAnnotation.m */; };
+		FE2F15811C9D2EB200D724D3 /* chang.png in Resources */ = {isa = PBXBuildFile; fileRef = FE2F157D1C9D2EB200D724D3 /* chang.png */; };
+		FE2F15821C9D2EB200D724D3 /* jingqu.png in Resources */ = {isa = PBXBuildFile; fileRef = FE2F157E1C9D2EB200D724D3 /* jingqu.png */; };
+		FE2F15831C9D2EB200D724D3 /* super.png in Resources */ = {isa = PBXBuildFile; fileRef = FE2F157F1C9D2EB200D724D3 /* super.png */; };
+		FE2F15841C9D2EB200D724D3 /* PinData.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE2F15801C9D2EB200D724D3 /* PinData.plist */; };
+		FE2F15861C9D37A100D724D3 /* acc.png in Resources */ = {isa = PBXBuildFile; fileRef = FE2F15851C9D37A100D724D3 /* acc.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		FE2F15651C9D2BB700D724D3 /* CustomeAnnotationViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomeAnnotationViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2F15691C9D2BB700D724D3 /* CustomeAnnotationViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomeAnnotationViewUITests.m; sourceTree = "<group>"; };
 		FE2F156B1C9D2BB700D724D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2F15771C9D2CCB00D724D3 /* CustomPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPinAnnotationView.h; sourceTree = "<group>"; };
+		FE2F15781C9D2CCB00D724D3 /* CustomPinAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPinAnnotationView.m; sourceTree = "<group>"; };
+		FE2F157A1C9D2D1800D724D3 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		FE2F157B1C9D2D1800D724D3 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		FE2F157D1C9D2EB200D724D3 /* chang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chang.png; sourceTree = "<group>"; };
+		FE2F157E1C9D2EB200D724D3 /* jingqu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jingqu.png; sourceTree = "<group>"; };
+		FE2F157F1C9D2EB200D724D3 /* super.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = super.png; sourceTree = "<group>"; };
+		FE2F15801C9D2EB200D724D3 /* PinData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PinData.plist; sourceTree = "<group>"; };
+		FE2F15851C9D37A100D724D3 /* acc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acc.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +119,19 @@
 		FE2F15401C9D2BB600D724D3 /* CustomeAnnotationView */ = {
 			isa = PBXGroup;
 			children = (
+				FE2F15851C9D37A100D724D3 /* acc.png */,
+				FE2F157D1C9D2EB200D724D3 /* chang.png */,
+				FE2F157E1C9D2EB200D724D3 /* jingqu.png */,
+				FE2F157F1C9D2EB200D724D3 /* super.png */,
+				FE2F15801C9D2EB200D724D3 /* PinData.plist */,
 				FE2F15441C9D2BB600D724D3 /* AppDelegate.h */,
 				FE2F15451C9D2BB600D724D3 /* AppDelegate.m */,
 				FE2F15471C9D2BB600D724D3 /* ViewController.h */,
 				FE2F15481C9D2BB600D724D3 /* ViewController.m */,
+				FE2F157A1C9D2D1800D724D3 /* MyAnnotation.h */,
+				FE2F157B1C9D2D1800D724D3 /* MyAnnotation.m */,
+				FE2F15771C9D2CCB00D724D3 /* CustomPinAnnotationView.h */,
+				FE2F15781C9D2CCB00D724D3 /* CustomPinAnnotationView.m */,
 				FE2F154A1C9D2BB600D724D3 /* Main.storyboard */,
 				FE2F15501C9D2BB600D724D3 /* Assets.xcassets */,
 				FE2F15521C9D2BB600D724D3 /* LaunchScreen.storyboard */,
@@ -247,7 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE2F15541C9D2BB700D724D3 /* LaunchScreen.storyboard in Resources */,
+				FE2F15861C9D37A100D724D3 /* acc.png in Resources */,
+				FE2F15831C9D2EB200D724D3 /* super.png in Resources */,
+				FE2F15821C9D2EB200D724D3 /* jingqu.png in Resources */,
+				FE2F15811C9D2EB200D724D3 /* chang.png in Resources */,
 				FE2F15511C9D2BB600D724D3 /* Assets.xcassets in Resources */,
+				FE2F15841C9D2EB200D724D3 /* PinData.plist in Resources */,
 				FE2F154C1C9D2BB600D724D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +305,9 @@
 			files = (
 				FE2F154F1C9D2BB600D724D3 /* CustomeAnnotationView.xcdatamodeld in Sources */,
 				FE2F15491C9D2BB600D724D3 /* ViewController.m in Sources */,
+				FE2F157C1C9D2D1800D724D3 /* MyAnnotation.m in Sources */,
 				FE2F15461C9D2BB600D724D3 /* AppDelegate.m in Sources */,
+				FE2F15791C9D2CCB00D724D3 /* CustomPinAnnotationView.m in Sources */,
 				FE2F15431C9D2BB600D724D3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

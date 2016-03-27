@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>coordinate</key>
+		<dict>
+			<key>latitude</key>
+			<real>34.4233</real>
+			<key>longitude</key>
+			<real>113.5036</real>
+		</dict>
+		<key>name</key>
+		<string>金星超市</string>
+		<key>detail</key>
+		<string>样样一元</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>coordinate</key>
+		<dict>
+			<key>latitude</key>
+			<real>34.4558</real>
+			<key>longitude</key>
+			<real>113.345</real>
+		</dict>
+		<key>name</key>
+		<string>郑州火化场</string>
+		<key>detail</key>
+		<string>活着的死了的都可以火化</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>coordinate</key>
+		<dict>
+			<key>latitude</key>
+			<real>34.445</real>
+			<key>longitude</key>
+			<real>113.3728</real>
+		</dict>
+		<key>name</key>
+		<string>可以打滚的广场</string>
+		<key>detail</key>
+		<string>最牛掰的旅游胜地</string>
+		<key>type</key>
+		<integer>2</integer>
+	</dict>
+</array>
+</plist>
